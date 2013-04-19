@@ -22,7 +22,7 @@ filetype plugin on              " loads plugins for specific type
 filetype indent on              " loads indent file for specific type
 
 syntax on                       " turn syntax highlighting on by default
-colors wombat                   " color scheme
+colors molokai                  " color scheme
 
 if has('win64')
   set guifont=Inconsolata:h12   " windows font
