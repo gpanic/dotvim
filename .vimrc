@@ -26,4 +26,6 @@ colors wombat                   " color scheme
 
 if has('win46')
   set guifont=Inconsolata:h12   " font
+elseif has('unix')
+  set guifont=Monospace\ 12
 endif
