@@ -25,7 +25,7 @@ syntax on                       " turn syntax highlighting on by default
 colors wombat                   " color scheme
 
 if has('win46')
-  set guifont=Inconsolata:h12   " font
+  set guifont=Inconsolata:h12   " windows font
 elseif has('unix')
-  set guifont=Monospace\ 12
+  set guifont=Monospace\ 12     " unix font
 endif
