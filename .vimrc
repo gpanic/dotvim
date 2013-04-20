@@ -24,8 +24,8 @@ filetype indent on              " loads indent file for specific type
 syntax on                       " turn syntax highlighting on by default
 colors molokai                  " color scheme
 
-if has('win64')
-  set guifont=Inconsolata:h12   " windows font
+if has('win32')
+  set guifont=Ubuntu\ Mono:h12  " windows font
 elseif has('unix')
   set guifont=Monospace\ 12     " unix font
 endif
